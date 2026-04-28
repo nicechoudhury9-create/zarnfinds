@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finds | Zaar Finds</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="home.html" aria-label="Zaar Finds home">
+      <img src="mmp.png" alt="Zaar Finds" class="brand-logo">
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="nav-link" href="home.html">Home</a>
+      <a class="nav-link active" href="finds.html">Finds</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <p class="eyebrow">Affiliate catalog</p>
+      <h1>Finds your readers can shop in a few taps.</h1>
+      <p>Filter by category, open the affiliate link, and browse fresh picks as the catalog grows.</p>
+    </section>
+
+    <section class="catalog-shell">
+      <div class="catalog-toolbar">
+        <div id="category-tabs" class="segmented" aria-label="Product categories"></div>
+        <label class="search-box">
+          <span>Search</span>
+          <input id="product-search" type="search" placeholder="Product name">
+        </label>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>No products found in this view.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Zaar Finds uses affiliate links. We may earn a commission when you buy through them, at no extra cost to you.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Admin | Zaar Finds</title>
+  <link rel="stylesheet" href="assets/styles.css?v=2">
+</head>
+<body class="admin-page is-locked">
+  <header class="site-header">
+    <a class="brand" href="home.html" aria-label="Zaar Finds home">
+      <img src="mmp.png" alt="Zaar Finds" class="brand-logo">
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="nav-link" href="home.html">Home</a>
+      <a class="nav-link" href="finds.html">Finds</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="admin-shell">
+    <aside class="admin-card">
+      <p class="eyebrow">Private login</p>
+      <h1>Catalog admin</h1>
+      <p>Sign in to add categories, upload product photos, and publish affiliate links to the storefront.</p>
+
+      <form id="unlock-form" class="form">
+        <label class="field">
+          Admin password
+          <input id="admin-password" type="password" autocomplete="current-password" required>
+        </label>
+        <button class="button primary" type="submit">Sign in</button>
+      </form>
+
+      <button id="logout-button" class="small-button secondary hidden" type="button">Sign out</button>
+      <p id="admin-status" class="status" role="status"></p>
+      <p class="admin-muted">Use image files under 5 MB for faster loading on phones.</p>
+    </aside>
+
+    <section id="admin-panel" class="admin-panel hidden" aria-live="polite">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">Manage products</p>
+          <h2>Update the storefront</h2>
+        </div>
+        <a class="text-link" href="finds.html">Preview finds</a>
+      </div>
+
+      <div class="admin-grid">
+        <form id="category-form" class="form admin-card">
+          <h3>Add category</h3>
+          <label class="field">
+            Category name
+            <input name="name" type="text" placeholder="Beauty Finds" required>
+          </label>
+          <label class="field">
+            Short description
+            <textarea name="description" placeholder="A simple line that explains this category."></textarea>
+          </label>
+          <button class="button primary" type="submit">Create category</button>
+        </form>
+
+        <form id="product-form" class="form admin-card">
+          <h3>Add product</h3>
+          <label class="field">
+            Product title
+            <input name="title" type="text" placeholder="Minimal crossbody bag" required>
+          </label>
+          <label class="field">
+            Category
+            <select name="categoryId" id="category-select" required></select>
+          </label>
+          <label class="field">
+            Price label
+            <input name="priceLabel" type="text" placeholder="Below INR 999">
+          </label>
+          <label class="field">
+            Affiliate link
+            <input name="affiliateUrl" type="url" placeholder="https://www.amazon.in/..." required>
+            <small>This should be the exact affiliate URL for your blog promotion.</small>
+          </label>
+          <label class="field">
+            Upload product image
+            <input name="imageFile" type="file" accept="image/png,image/jpeg,image/webp,image/gif">
+          </label>
+          <label class="field">
+            Or use an image URL
+            <input name="imageUrl" type="url" placeholder="https://example.com/product.jpg">
+          </label>
+          <label class="checkbox-field">
+            <input name="isFeatured" type="checkbox">
+            Feature on home page
+          </label>
+          <button class="button primary" type="submit">Publish product</button>
+        </form>
+      </div>
+
+      <div class="admin-grid">
+        <section class="admin-card">
+          <h3>Live categories</h3>
+          <div id="category-list" class="admin-list"></div>
+        </section>
+        <section class="admin-card">
+          <h3>Products on site</h3>
+          <div id="product-list" class="admin-list"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/admin.js?v=2"></script>
+</body>
+</html>

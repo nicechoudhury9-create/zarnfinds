@@ -1,0 +1,105 @@
+{
+  "site": {
+    "name": "Zaar Finds",
+    "tagline": "Curated affiliate finds for a refined everyday."
+  },
+  "categories": [
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "description": "Clean everyday pieces, tees, trousers, and seasonal staples."
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "description": "Useful bags and finishing touches for daily routines."
+    },
+    {
+      "id": "home-lifestyle",
+      "name": "Home & Lifestyle",
+      "description": "Minimal home, desk, and lifestyle finds."
+    }
+  ],
+  "products": [
+    {
+      "id": "black-clogs-men",
+      "title": "Black Clogs for Men",
+      "priceLabel": "Below INR 500",
+      "categoryId": "fashion",
+      "affiliateUrl": "https://www.amazon.in/PeniLo-Clog-Breathable-Slip-Resistant-Waterproof/dp/B0FVFV4JQ9?crid=CSWHMTHPCTIJ&dib=eyJ2IjoiMSJ9.DaVnROJ9Pcil8fyLU7AM1Ve6fEWYeE2zfO9MjY-Xv8Xp61joNIGU1AbdJmLgsTiImtZiZtTJ-HNFcbG_gi_fbuYcrdNQpPHTi69feVSB35-NwvLrELkcG7jTYIjGK2dOX-ZN_ItfLao8HWGHCxY2yidIOaHIGIPaXzp-uPiMFrp3_pkPvpbq3Gn7dWhZxLbYVwuSiGz9WPBu7MRMEJs2FlRwGW16lzWpqj0q57rBPShG5_2limglEtptme8yzv2xSXmtKnmVM6vozsTOn_BUEQOPlFIU8CGoQTIecAzXSME.8eFW37VtVMC6R5gDTd9HpEZGdzq_AfR00q8ZhsLsVAE&dib_tag=se&keywords=CLOGS&qid=1768734776&sprefix=clog%2Caps%2C506&sr=8-15&th=1&psc=1&linkCode=ll1&tag=zarnfinds77-21&linkId=a762ff45a9ee398a1af4ce4cff96cf43&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "CLOGS.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "crop-top-women",
+      "title": "Crop Top for Women",
+      "priceLabel": "Below INR 300",
+      "categoryId": "fashion",
+      "affiliateUrl": "https://www.amazon.in/gp/product/B0F1XYPV95?smid=A1BKUK1S4635G8&th=1&psc=1&linkCode=ll1&tag=zarnfinds77-21&linkId=9576f40f31d77db1036d2b5e516224b8&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "CROP TOP.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "tailor-pants-men",
+      "title": "Tailor Pants for Men",
+      "priceLabel": "Below INR 400",
+      "categoryId": "fashion",
+      "affiliateUrl": "https://www.amazon.in/gp/aw/d/B0DVZL9QWC?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=d8b94bedb7ed4934f3df338a47e9a8f8&hsa_cr_id=0&qid=1768815604&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=Xqv7ttQwvE&pd_rd_w=mfDrw&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=QKCXH6FYGTTX97T1V8Y9&pd_rd_wg=XCfoV&pd_rd_r=14c5f2be-1ee0-4801-8c0b-26bd17f2ab5a&th=1&psc=1&linkCode=ll1&tag=zarnfinds77-21&linkId=8596c55f664acebba15781ef5d5bb90b&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "TAILOR PANTS.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "oversized-tee",
+      "title": "Oversized Tee",
+      "priceLabel": "Below INR 600",
+      "categoryId": "fashion",
+      "affiliateUrl": "https://www.amazon.in/Amazon-Brand-Oversized-T-Shirt-SYM-M-A24-TS-200_Mid/dp/B0F7FM63SH?crid=1TTOGXD5UWTZV&dib=eyJ2IjoiMSJ9._ee_Ez58y4ERhz5x6rpdi95Jn1K2Gl7MMFjj9ngBiTqxcO4mQxvmvwlXMdoVZSZJ7To79iMFgb_uTPZNVhdXcR4TOQvnP57qpRZKZiw2WEOG8gaRLh8JULToq0YxwL937ElP1dh9IT4nsXVqGDGh1HY7hAa2tUR1uh35hAApQfTrucwt9E1g2TiDH9ROnJP0dP2KNlLd8rlPRTD4u5i2myx-LaMrBxkTOUXoNbD6GKH3KG4VvoKk_XDASFgUdbpf-blVuy9pdeR1G3cR60pwjwbVuEajoxIkAnHipwi1x7Q.O4WEHSf0jqkm-rjIivYQuLVzMCrKbnL5L60tHU3iaV8&dib_tag=se&keywords=h%26M%2Btshirt&qid=1768816206&s=apparel&sprefix=h%26m%2Btshir%2Capparel%2C476&sr=1-18&th=1&psc=1&linkCode=ll1&tag=zarnfinds77-21&linkId=aa4c0955b40abda39fc7b156391eef57&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "TEE.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "cargo-trousers-women",
+      "title": "Cargo Trousers for Women",
+      "priceLabel": "Below INR 800",
+      "categoryId": "fashion",
+      "affiliateUrl": "https://www.amazon.in/dp/B0F8HMSDQL?th=1&psc=1&linkCode=ll1&tag=zarnfinds77-21&linkId=a128463ab24cdb2cd11dfc90ad62f007&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "CARGO WMN.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "korean-formal-trousers",
+      "title": "Korean Formal Trousers",
+      "priceLabel": "Below INR 500",
+      "categoryId": "fashion",
+      "affiliateUrl": "https://www.amazon.in/dp/B0DRS9F8LB?th=1&psc=1&linkCode=ll1&tag=zarnfinds77-21&linkId=e488bf138bf67fc364b6a259e2e78983&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "TROUSER WMN.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "side-slit-crop-top",
+      "title": "Side Slit Crop Top",
+      "priceLabel": "Below INR 400",
+      "categoryId": "fashion",
+      "affiliateUrl": "https://www.amazon.in/Aahwan-Brown-Strapless-Womens-340-Brown-M/dp/B0FFBJ2NNV?_encoding=UTF8&pd_rd_w=QVyW7&content-id=amzn1.sym.f6ac7eb0-e147-4f26-a2cf-48458f6dd609&pf_rd_p=f6ac7eb0-e147-4f26-a2cf-48458f6dd609&pf_rd_r=MBWHM2Y6TFASTBX4R0VC&pd_rd_wg=s3zZ3&pd_rd_r=dd884fe1-a481-46ef-9dbd-1f91489f1fce&th=1&psc=1&linkCode=ll1&tag=zarnfinds77-21&linkId=39fb2b2fb471e98aa58542f472f61509&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "SIDE SLIT.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "classy-college-bag",
+      "title": "Classy College Bag",
+      "priceLabel": "Below INR 500",
+      "categoryId": "accessories",
+      "affiliateUrl": "https://www.amazon.in/Skybags-LAPTOP-BACKPACK-BLACK-NAVY/dp/B0CJ3K6CGP?crid=ZZ8JJEH5NPZO&dib=eyJ2IjoiMSJ9.yZG-3VocbpaxwR1Z5mB6Z_9wMCQGsCG-HojvBDY6CO0CZgbdD1xcZduW7__ul6cn01ilQNUYUIMD8o6zZdPWy2cWkXu2uJyd7iOu9R5tXbA2BkT3gqolq2X05s1CZ4-wACfieIfAbc2-UCYjKgJAg4-Vu2ix-JXiZ5X8XO3JhbJv-yZkU1vKvGwuPW_7ouWNQIkWwsjelYk2iBQBnI6fBvGfg7EkfDIrmCAKscQFQR2CKzrxvOXTpvFjX5WZKWyqUvyOsLZzh3azFvKtB0umi93tdPtZKX04D6D0vWrNDWs.WRwBVorseLmlcxwKDoG4RbzhPQbY4u_2vNwB9WdlWlM&dib_tag=se&keywords=bags&qid=1768817679&s=luggage&sprefix=bags%2Cluggage%2C484&sr=1-7&th=1&linkCode=ll1&tag=zarnfinds77-21&linkId=f04d23936fd4dffe16dd4530d8764c35&language=en_IN&ref_=as_li_ss_tl",
+      "imageSrc": "BAG.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-01-19T00:00:00.000Z"
+    }
+  ]
+}
